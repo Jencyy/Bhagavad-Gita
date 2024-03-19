@@ -1,5 +1,7 @@
 let chepter = document.getElementById('chepter');
 let chshlok = document.getElementById('ch-shlok');
+
+const myHeader = new Headers();
 // book start
 let currentPage = 1;
 
@@ -40,14 +42,14 @@ const getshlok = (chapterNumber, shlokNumber) => {
 
     })
     .catch((err) => console.log(err));
-}
+} 
 
 //book end4
 const chept = async () => {
   await fetch('https://bhagavadgitaapi.in/chapters', {
     method: "GET",
     mode: 'cors',
-    headers: {}
+    headers: myHeader
   })
     .then((res) => res.json())
     .then((data) => {
