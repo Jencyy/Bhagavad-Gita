@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- book start -->
+    <!-- <div class="instruction">Flip the page</div> -->
+    <div class="book">
+        <!-- cover page -->
+    
+        <div class="page cover-front" onclick="movePage(this, 1)">
+
+            <h1 class="heading text-warning">श्रीमद् भगवद् गीता </h1>
+        </div>
+        <div class="page cover-front" onclick="movePage(this, 2)">
+            <h4 class="text-center"> History</h4>
+            <p class="text-center">
+                भगवद्गीता प्राचीन भारत के संस्कृत महाकाव्य महाभारत में दर्ज एक प्रसंग है। यह हिंदू धर्म में एक
+                प्रभावशाली धार्मिक ग्रंथ है जो राजकुमार अर्जुन और हिंदू देवता विष्णु के अवतार कृष्ण के बीच संवाद का रूप
+                लेता है। इसकी रचना संभवतः पहली या दूसरी शताब्दी ई.पू. में हुई थी।
+
+            </p>
+            <p class="text-center ">The Bhagavadgita is an episode recorded in the Mahabharata, a Sanskrit epic poem of
+                ancient India. It is an influential religious text in Hinduism that takes the form of a dialogue between
+                Prince Arjuna and Krishna, an avatar of the Hindu deity Vishnu. It was likely composed in the 1st or 2nd
+                century CE.</p>
+
+        </div>
+        <!-- 1 page description-->
+        <div class="page text-page text-center " onclick="movePage(this, 3)">
+            <h4 class="fw-bold mt-4 ">श्रीमद् भगवद् गीता </h4>
+            <p class="">भगवद्गीता अस्मान् शुद्धतया, बलेन, अनुशासनेन, प्रामाणिकतया, दयालुतया, निष्ठया च जीवनं जीवितुं
+                प्रेरयति।
+                एवं वयं स्वस्य उद्देश्यं अन्विष्य तत् पूर्णतया जीवितुं शक्नुमः।</p>
+            <h5 class="fw-bold mt-4"> Bhagavad Gita</h5>
+
+            <p>The Bhagavad Gita encourages us to live life with purity, strength, discipline, honesty, kindness and
+                integrity. In this way we can find our purpose and live it fully.</p>
+
+            <div class="mt-up">designed by -<span>jency sodvadiya</span></div>
+        </div>
+        <!-- 2 page chepter -->
+        <div class="page text-page overflow-y-scroll scroll">
+           
+
+            <h3 class="fw-medium text-center">
+                <!-- <button type="submit" class="page-flip btn mybtn" onclick="movePage(this, 4)">flip-page</button> -->
+                अध्याय
+            </h3>
+            <div class="chepter " id="chepter">
+
+            </div>
+
+
+        </div>
+
+        <div class="page text-page overflow-y-scroll scroll" onclick="movePage(this, 5)">
+            <div class="ch-shlok" id="ch-shlok">
+
+              
+
+            </div>
+
+        </div>
+        <div class="page text-page" onclick="movePage(this, 6)">
+
+
+        </div>
+        <div class="page"></div>
+        <!-- <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div> -->
+        <!-- <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div>
+        <div class="page"></div> -->
+
+    </div>
+    <!-- book end -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
